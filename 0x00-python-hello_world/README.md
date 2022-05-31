@@ -12,3 +12,4 @@
 10- Technical interview preparation: check if a singly linked list has a cycle in it</br>
 11- print a string using <code>write</code> from the <code>sys</code> module</br>
 12- compile a Python script file</br>
+13- Python bytecode
