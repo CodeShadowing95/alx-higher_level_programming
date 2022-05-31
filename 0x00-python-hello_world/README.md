@@ -9,3 +9,5 @@
 7- string slices</br>
 8- concatenate edges of strings</br>
 9- print "The Zen of Python", by Tim Peters</br>
+10- Technical interview preparation: check if a singly linked list has a cycle in it</br>
+11- print a string using <code>write</code> from the <code>sys</code> module</br>
