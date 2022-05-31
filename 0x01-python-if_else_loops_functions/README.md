@@ -4,3 +4,4 @@
 1- print the last digit of a number</br>
 2- print ASCII alphabet in lowercase</br>
 3- print ASCII alphabet in lowercase, except q and e</br>
+4- print numbers from 0 to 98 in decimal and hexadecimal</br>
