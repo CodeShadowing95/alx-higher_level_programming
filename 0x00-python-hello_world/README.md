@@ -8,3 +8,4 @@
 6- print string concatenated</br>
 7- string slices</br>
 8- concatenate edges of strings</br>
+9- print "The Zen of Python", by Tim Peters</br>
