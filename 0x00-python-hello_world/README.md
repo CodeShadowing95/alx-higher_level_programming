@@ -6,3 +6,4 @@
 4- Print floating point number</br>
 5- Print string 3 times, followed by its first 9 characters</br>
 6- print string concatenated</br>
+7- string slices</br>
