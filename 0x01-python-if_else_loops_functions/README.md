@@ -3,4 +3,4 @@
 0- Check whether a random number is positive or negative</br>
 1- print the last digit of a number</br>
 2- print ASCII alphabet in lowercase</br>
-2- print ASCII alphabet in lowercase</br>
+3- print ASCII alphabet in lowercase, except q and e</br>
