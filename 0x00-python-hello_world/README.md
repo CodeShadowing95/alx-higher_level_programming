@@ -7,3 +7,4 @@
 5- Print string 3 times, followed by its first 9 characters</br>
 6- print string concatenated</br>
 7- string slices</br>
+8- concatenate edges of strings</br>
