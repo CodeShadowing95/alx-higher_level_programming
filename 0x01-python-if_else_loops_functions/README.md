@@ -11,3 +11,4 @@
 8- print a string in uppercase</br>
 9- print concatenated last digit of each given number</br>
 10- sum 2 integers</br>
+11- print a to the power of b</br>
