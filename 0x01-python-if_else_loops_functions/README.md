@@ -16,3 +16,4 @@
 13-
 14- print ASCII alphabet in reverse order, alternating lowercase and uppercase</br>
 15- create copy of a string, removing the character at the position n </br>
+16- magic calculation
