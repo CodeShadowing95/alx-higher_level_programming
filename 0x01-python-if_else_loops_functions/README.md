@@ -12,3 +12,4 @@
 9- print concatenated last digit of each given number</br>
 10- sum 2 integers</br>
 11- print a to the power of b</br>
+12- print the numbers from 0 to 100</br>
