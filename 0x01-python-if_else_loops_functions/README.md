@@ -7,3 +7,4 @@
 4- print numbers from 0 to 98 in decimal and hexadecimal</br>
 5- numbers from 0 to 99</br>
 6- print all possible different combinations of 2 digits</br>
+7- check for lowercase character</br>
