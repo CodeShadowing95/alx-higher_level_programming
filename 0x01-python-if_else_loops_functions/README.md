@@ -8,3 +8,4 @@
 5- numbers from 0 to 99</br>
 6- print all possible different combinations of 2 digits</br>
 7- check for lowercase character</br>
+8- print a string in uppercase</br>
