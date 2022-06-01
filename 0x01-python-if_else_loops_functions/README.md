@@ -9,3 +9,4 @@
 6- print all possible different combinations of 2 digits</br>
 7- check for lowercase character</br>
 8- print a string in uppercase</br>
+9- print concatenated last digit of each given number</br>
