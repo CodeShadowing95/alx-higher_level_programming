@@ -12,3 +12,4 @@
 9- find the biggest integer of a list</br>
 10- find all multiples of 2 in a list</br>
 11- delete an element at a given position in a list</br>
+12- switch values of a and b</br>
