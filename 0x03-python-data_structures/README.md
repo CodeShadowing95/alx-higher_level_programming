@@ -9,3 +9,4 @@
 6- print a matrix of integers</br>
 7- add 2 tuples</br>
 8- tuple that gets the length of a string and its first character</br>
+9- find the biggest integer of a list</br>
