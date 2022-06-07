@@ -6,3 +6,6 @@
 3- print all integers of a list, in reverse order</br>
 4- replace an element in a list at a given position without modifying the original list</br>
 5- remove all characters c and C from a string</br>
+6- print a matrix of integers</br>
+7- add 2 tuples</br>
+8- tuple that gets the length of a string and its first character</br>
