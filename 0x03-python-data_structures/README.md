@@ -11,3 +11,4 @@
 8- tuple that gets the length of a string and its first character</br>
 9- find the biggest integer of a list</br>
 10- find all multiples of 2 in a list</br>
+11- delete an element at a given position in a list</br>
