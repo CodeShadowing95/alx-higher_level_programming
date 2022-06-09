@@ -4,3 +4,4 @@
 1- replace all occurrences of an element by another in a new list</br>
 2- add all unique integers in a list</br>
 3- get a set of common elements in two sets</br>
+4- get a set of all elements present in only one set</br>
