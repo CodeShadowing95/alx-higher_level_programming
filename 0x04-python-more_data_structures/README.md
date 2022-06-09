@@ -12,3 +12,4 @@
 9- get a new dictionary with all values multiplied by 2</br>
 10- get the key with the biggest integer value</br>
 11- list with all values multiplied by a number (no loops)</br>
+12- convert Roman numeral to an integer</br>
