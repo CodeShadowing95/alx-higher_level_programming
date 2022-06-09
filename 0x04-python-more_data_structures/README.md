@@ -2,3 +2,4 @@
 <h2>More data structures: Set, Dictionary</h2>
 0- get the square value of all integers of a matrix</br>
 1- replace all occurrences of an element by another in a new list</br>
+2- add all unique integers in a list</br>
