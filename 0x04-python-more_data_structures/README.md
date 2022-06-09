@@ -10,3 +10,4 @@
 7- replace or add key/value in a dictionary</br>
 8- delete a key in a dictionary</br>
 9- get a new dictionary with all values multiplied by 2</br>
+10- get the key with the biggest integer value</br>
