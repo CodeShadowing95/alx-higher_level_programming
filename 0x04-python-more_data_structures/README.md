@@ -6,3 +6,4 @@
 3- get a set of common elements in two sets</br>
 4- get a set of all elements present in only one set</br>
 5- get the number of keys in a dictionary</br>
+6- print a dictionary by ordered keys</br>
