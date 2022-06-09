@@ -7,3 +7,4 @@
 4- get a set of all elements present in only one set</br>
 5- get the number of keys in a dictionary</br>
 6- print a dictionary by ordered keys</br>
+7- replace or add key/value in a dictionary</br>
