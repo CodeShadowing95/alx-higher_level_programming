@@ -5,3 +5,4 @@
 2- add all unique integers in a list</br>
 3- get a set of common elements in two sets</br>
 4- get a set of all elements present in only one set</br>
+5- get the number of keys in a dictionary</br>
