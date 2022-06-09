@@ -11,3 +11,4 @@
 8- delete a key in a dictionary</br>
 9- get a new dictionary with all values multiplied by 2</br>
 10- get the key with the biggest integer value</br>
+11- list with all values multiplied by a number (no loops)</br>
