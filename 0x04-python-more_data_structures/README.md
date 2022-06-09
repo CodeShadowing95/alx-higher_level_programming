@@ -8,3 +8,4 @@
 5- get the number of keys in a dictionary</br>
 6- print a dictionary by ordered keys</br>
 7- replace or add key/value in a dictionary</br>
+8- delete a key in a dictionary</br>
