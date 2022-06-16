@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-from functools import reduce
 from sre_compile import isstring
 
 
@@ -13,13 +12,20 @@ def roman_to_int(roman_string):
             'D': 500,
             'M': 1000
     }
-    c = 0
 
-    if (not isstring(roman_string)) or roman_string is None:
-        return 0
+    s = 0
 
-    nbrs = [roman_int[i] for i in roman_string if i in list(roman_int.keys())]
+    if (not isstring(roman_string)) or roman_string == None:
+        return (0)
 
-    c = reduce(lambda a, b: -1 * (a - b) if a < b else a + b, nbrs)
+    romans_converted = [roman_int[roman_nbr] for roman_nbr in roman_string]
 
-    return c
+    for i in range(0, len(romans_converted)):
+        s += romans_converted[i]
+        if i > 0:
+            if romans_converted[i] > romans_converted[i-1]:
+                s -= (romans_converted[i] + romans_converted[i-1])
+                s += (romans_converted[i] - romans_converted[i-1])
+
+    if s in range(1, 4000):
+        return (s)
