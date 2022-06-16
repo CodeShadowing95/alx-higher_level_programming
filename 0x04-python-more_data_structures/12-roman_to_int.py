@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-from sre_compile import isstring
-
 
 def roman_to_int(roman_string):
     roman_int = {
@@ -15,7 +13,7 @@ def roman_to_int(roman_string):
 
     s = 0
 
-    if (not isstring(roman_string)) or roman_string == "":
+    if type(roman_string) != str or roman_string == "":
         return (0)
 
     romans_converted = [roman_int[roman_nbr] for roman_nbr in roman_string]
