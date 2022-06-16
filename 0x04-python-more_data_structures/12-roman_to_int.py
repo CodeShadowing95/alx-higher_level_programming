@@ -15,7 +15,7 @@ def roman_to_int(roman_string):
 
     s = 0
 
-    if (not isstring(roman_string)) or roman_string == None:
+    if (not isstring(roman_string)) or roman_string == "":
         return (0)
 
     romans_converted = [roman_int[roman_nbr] for roman_nbr in roman_string]
