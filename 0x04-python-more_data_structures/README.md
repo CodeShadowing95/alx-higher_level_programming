@@ -15,3 +15,4 @@
 12- convert Roman numeral to an integer</br>
 13- get the weighted average of all integers tuple <code>(<score>, <weight>)</code></br>
 14- get the square value of all integers of a matrix using <code>map</code></br>
+15- delete keys with a specific value in a dictionary</br>
