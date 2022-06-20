@@ -8,3 +8,4 @@ To catch an exception, we use the <code>try...except</code> statements to deal w
 1- safe printing of an integers list</br>
 2- print the first n elements of a list and only integers</br>
 3- divide 2 integers and print the result</br>
+4- divide element by element, 2 lists</br>
