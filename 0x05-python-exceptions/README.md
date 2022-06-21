@@ -13,3 +13,4 @@ To catch an exception, we use the <code>try...except</code> statements to deal w
 6- raise a name exception with a message</br>
 7- safe integer printing with error message</br>
 8- execute a function safely</br>
+9- ByteCode Python</br>
