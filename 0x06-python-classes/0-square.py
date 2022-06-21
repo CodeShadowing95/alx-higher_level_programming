@@ -1,12 +1,6 @@
 #!/usr/bin/python3
 class Square:
-    """ Represents the square of a any number
-
-    Fields:
-    None
-
-    Methods:
-    None
-
     """
-    pass
+    The square object represents the square of a any number
+    """
+    pass  # An empty block
