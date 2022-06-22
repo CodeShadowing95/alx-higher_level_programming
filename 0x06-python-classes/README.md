@@ -5,3 +5,4 @@
 2- based on (1-), add some type/value validations, so that size must be only integer <code>size</code></br>
 3- based on (2-), add a public instance method that returns the square area</br>
 4- based on (3-), add getter(retrieve the value) and setter(change the value</br>)
+5- based on (4-), print in stdout the square with the character <code>#</code></br>
