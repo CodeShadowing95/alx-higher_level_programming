@@ -150,15 +150,9 @@ class Square:
         None
         """
         if self.__size != 0:
-            """Position on Y axis"""
-            if self.__position[1] > 0:
-                for k in range(self.__position[1]):
-                    print()
+            print('\n' * self.__position[1], end='')
             for i in range(self.__size):
-                """Position on X axis"""
                 print(" " * self.__position[0], end="")
-                for j in range(self.__size):
-                    print("#", end="")
-                print()
+                print("#" * self.__size)
         else:
             print()
