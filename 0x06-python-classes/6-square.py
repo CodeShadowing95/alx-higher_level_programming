@@ -38,7 +38,8 @@ class Square:
             raise ValueError("size must be >= 0")
         self.__size = size      # private instance attribute
 
-        if not isinstance(position, tuple):
+        if not isinstance(position, tuple) or \
+                position[0] < 0 or position[1] < 0:
             raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = position
 
