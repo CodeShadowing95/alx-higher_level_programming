@@ -82,7 +82,8 @@ class Square:
             raise TypeError("size must be an integer")
         if value < 0:
             raise ValueError("size must be >= 0")
-        self.__size = value
+        else:
+            self.__size = value
 
     @property
     def position(self):
@@ -151,10 +152,10 @@ class Square:
         -------
         None
         """
-        if self.size != 0:
-            print('\n' * self.__position[1], end='')
-            for i in range(self.__size):
-                print(" " * self.__position[0], end="")
-                print("#" * self.__size)
-        else:
+        if self.__size == 0:
             print()
+        else:
+            print('\n' * self.__position[1], end='')
+            for _ in range(self.__size):
+                print(" " * self.__position[0], end='')
+                print("#" * self.__size)
