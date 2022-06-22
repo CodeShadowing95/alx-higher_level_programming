@@ -69,7 +69,12 @@ class Square:
 
     def my_print(self):
         if self.__size != 0:
+            """Position on Y axis"""
+            if self.__position[1] > 0:
+                for _ in range(self.__position[1]):
+                    print()
             for i in range(self.__size):
+                """Position on X axis"""
                 print(" " * self.__position[0], end="")
                 for j in range(self.__size):
                     print("#", end="")
