@@ -73,7 +73,7 @@ class Square:
         if self.__size != 0:
             """Position on Y axis"""
             if self.__position[1] > 0:
-                for _ in range(self.__position[1]):
+                for k in range(self.__position[1]):
                     print()
             for i in range(self.__size):
                 """Position on X axis"""
