@@ -165,7 +165,7 @@ class Square:
         if self.__size == 0:
             return
         else:
-            # print('\n' * self.__position[1], end='')
+            print('\n' * self.__position[1], end='')
             for _ in range(self.__size):
                 tab.append(" " * self.__position[0] + "#" * self.__size)
-        return '\n' * self.__position[1] + "".join(tab)
+        return "\n".join(tab)
