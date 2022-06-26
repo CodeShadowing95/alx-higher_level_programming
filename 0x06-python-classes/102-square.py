@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """Building of the class Square"""
 
 
@@ -53,7 +54,7 @@ class Square:
             int: the area of the square
         """
         return self.__size ** 2
-    
+
     def __lt__(self, other):
         """check if the area square is less than another square
 
@@ -64,7 +65,7 @@ class Square:
             bool: True if the area square is less than the other square
         """
         return self.area() < other.area()
-    
+
     def __le__(self, other):
         """check if the area square is less than or equal to another square
 
@@ -72,10 +73,11 @@ class Square:
             other (Square): square to compare
 
         Returns:
-            bool: True if the area square is less than or equal to the other square
+            bool: True if the area square is less than or
+            equal to the other square
         """
         return self.area() <= other.area()
-    
+
     def __eq__(self, other):
         """check if the area square is equal to another square
 
@@ -86,7 +88,7 @@ class Square:
             bool: True if the area square is equal to the other square
         """
         return self.area() == other.area()
-    
+
     def __ne__(self, other):
         """check if the area square is not equal to another square
 
@@ -94,10 +96,10 @@ class Square:
             other (Square): square to compare
 
         Returns:
-            bool: True if the area square is not equal to the other square        
+            bool: True if the area square is not equal to the other square
         """
         return self.area() != other.area()
-    
+
     def __gt__(self, other):
         """check if the area square is greater than another square
 
@@ -108,14 +110,15 @@ class Square:
             bool: True if the area square is greater than the other square
         """
         return self.area() > other.area()
-    
+
     def __ge__(self, other):
         """check if the area square is greater than or equal to another square
-        
+
         Args:
             other (Square): square to compare
-        
+
         Returns:
-            bool: True if the area square is greater than or equal to the other square
+            bool: True if the area square is greater than
+            or equal to the other square
         """
         return self.area() >= other.area()
