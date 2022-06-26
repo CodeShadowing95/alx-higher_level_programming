@@ -7,7 +7,7 @@ from locale import currency
 class Node:
     """
     A class to represent a node
-    
+
     ...
 
     Attributes
@@ -33,7 +33,8 @@ class Node:
 
         Args:
             data (int): data to be initialized
-            next_node (Node, optional): Points to the next node. Defaults to None.
+            next_node (Node, optional): Points to the next node.
+            Defaults to None.
         """
         self.data = data
         self.next_node = next_node
@@ -73,14 +74,14 @@ class Node:
     @next_node.setter
     def next_node(self, value):
         """
-        If the value is None or a Node, set the next node to the value. Otherwise, raise a TypeError.
-        
+        If the value is None or a Node, set the next node to the value.
+        Otherwise, raise a TypeError.
+
         :param value: the value of the node
         """
         if type(value) != Node and value is not None:
             raise TypeError("next_node must be a Node object")
         self.__next_node = value
-
 
 
 """Building a class SinglyLinkedList"""
@@ -124,7 +125,8 @@ class SinglyLinkedList:
             self.__head = n
         else:
             current = self.__head
-            while current.next_node is not None and current.next_node.data < value:
+            while current.next_node is not None and \
+                    current.next_node.data < value:
                 current = current.next_node
 
             n.next_node = current.next_node
@@ -138,18 +140,3 @@ class SinglyLinkedList:
             val.append(str(temp.data))
             temp = temp.next_node
         return ("\n".join(val))
-
-
-sll = SinglyLinkedList()
-sll.sorted_insert(2)
-sll.sorted_insert(5)
-sll.sorted_insert(3)
-sll.sorted_insert(10)
-sll.sorted_insert(1)
-sll.sorted_insert(-4)
-sll.sorted_insert(-3)
-sll.sorted_insert(4)
-sll.sorted_insert(5)
-sll.sorted_insert(12)
-sll.sorted_insert(3)
-print(sll)
