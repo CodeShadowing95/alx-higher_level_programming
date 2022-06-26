@@ -10,3 +10,4 @@
 7- based on (6-), create a singly linked list and insert a new node into the correct sorted position in the list</br>
 8- based on (6-), print a square instance with the same behavior as my_print()</br>
 9- based on (4-), Square instance can answer to comparators: ==, !=, >, >=, <, <= based on the square area
+10- create a class MagicClass through bytecode
