@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
 """Building of the class Node"""
+
+
 class Node:
     """
     A class to represent a node
