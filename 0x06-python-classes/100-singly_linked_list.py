@@ -1,11 +1,6 @@
 #!/usr/bin/python3
 
 """Building of the class Node"""
-
-
-from locale import currency
-
-
 class Node:
     """
     A class to represent a node
