@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """Building of the class Square"""
 
 
