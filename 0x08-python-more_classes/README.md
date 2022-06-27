@@ -6,3 +6,4 @@
 the area and the perimeter of any rectangle</br>
 3- based on (2-), add the methods <code>print()</code> and <code>str()</code> 
 to print the rectangle</br>
+4- based on (3-), get the string representation of the rectangle to be able to recreate a new instance by using <code>eval()</code></br>
