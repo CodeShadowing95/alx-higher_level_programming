@@ -160,7 +160,7 @@ class Rectangle:
         if type(rect_1) is not Rectangle:
             raise TypeError("rect_1 must be an instance of Rectangle")
         if type(rect_2) is not Rectangle:
-            raise TypeError("rect_2 must an instance of Rectangle")
+            raise TypeError("rect_2 must be an instance of Rectangle")
         if rect_1.area() < rect_2.area():
             return rect_2
         return rect_1
