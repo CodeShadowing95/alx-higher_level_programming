@@ -29,6 +29,11 @@ class Rectangle:
         calculates the perimeter of the rectangle
     print() - str():
         print the rectangle
+    print_symbol():
+        print the rectangle with a specific symbol
+    bigger_or_equal(rect_1, rect_2):
+        check whether the area of a rectangle is bigger than
+        or equal to another
     """
     number_of_instances = 0
     print_symbol = "#"
@@ -140,8 +145,7 @@ class Rectangle:
 
     @staticmethod
     def bigger_or_equal(rect_1, rect_2):
-        """static method that checks whether a class Rectangle is bigger than
-        or equal to another class Rectangle
+        """Returns the bigger area between 2 rectangles
 
         Args:
             rect_1 (Rectangle): class1
@@ -151,7 +155,7 @@ class Rectangle:
             rect_1 if the area of both rectangles have the same value
 
         Raises:
-            TypeError if rect_1 or rect_2 are not instances od Rectangle
+            TypeError if rect_1 or rect_2 are not instances of Rectangle
         """
         if type(rect_1) is not Rectangle:
             raise TypeError("rect_1 must be an instance of Rectangle")
