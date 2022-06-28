@@ -10,3 +10,4 @@ to print the rectangle</br>
 5- based on (4-), print a message when an instance of Rectangle is deleted</br>
 6- based on (5-), add class attribute <code>number_of_instances</code>, that increments for each instance of the class created and decrements for each instance deletion</br>
 7- based on (6-), add class attribute <code>print_symbol</code>, used as symbol for string representation</br>
+8- based on (7-), add static method that returns the biggest rectangle based on the area</br>
