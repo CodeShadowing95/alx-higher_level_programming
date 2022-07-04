@@ -36,3 +36,4 @@ The built-in function <code>super</code> is used to call the <code>__init__</cod
 2- Function that returns <code>True</code> if the object is exactly an instance of the specified class; otherwise <code>False</code></br> 
 3- Function that returns <code>True</code> if the object is an instance of, or if the object is an instance of a class that inherited from, the specified class ; otherwise <code>False</code>
 4- Function that returns <code>True</code> if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise <code>False</code>
+5- create an empty class BaseGeometry</br>
