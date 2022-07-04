@@ -37,3 +37,4 @@ The built-in function <code>super</code> is used to call the <code>__init__</cod
 3- Function that returns <code>True</code> if the object is an instance of, or if the object is an instance of a class that inherited from, the specified class ; otherwise <code>False</code>
 4- Function that returns <code>True</code> if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise <code>False</code>
 5- create an empty class BaseGeometry</br>
+6- based on 5-, create a public instance method <code>area</code> that raises an Exception with the message <code>area() is not implemented</code></br>
