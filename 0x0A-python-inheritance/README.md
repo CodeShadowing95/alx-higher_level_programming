@@ -34,3 +34,4 @@ The built-in function <code>super</code> is used to call the <code>__init__</cod
 0- get the list of available attributes and methods of an object</br>
 1- create a class MyList that inherits from list</br>
 2- Function that returns <code>True</code> if the object is exactly an instance of the specified class; otherwise <code>False</code></br> 
+3- Function that returns <code>True</code> if the object is an instance of, or if the object is an instance of a class that inherited from, the specified class ; otherwise <code>False</code>
