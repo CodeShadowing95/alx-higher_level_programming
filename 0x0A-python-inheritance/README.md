@@ -32,4 +32,5 @@ The built-in function <code>type</code> prints the type of an object.</br>
 The built-in function <code>super</code> is used to call the <code>__init__</code> method from the base class, essentially calling any overridden method of the base class.</br>
 <h2>Examples</h2>
 0- get the list of available attributes and methods of an object</br>
-1- ceate a class MyList that inherits from list</br>
+1- create a class MyList that inherits from list</br>
+2- Function that returns <code>True</code> if the object is exactly an instance of the specified class; otherwise <code>False</code></br> 
