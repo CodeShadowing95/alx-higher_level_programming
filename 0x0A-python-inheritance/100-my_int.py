@@ -3,6 +3,7 @@
 
 
 class MyInt(int):
+    """class MyInt"""
     def __ne__(self, other):
         """redefine not equal method"""
         return self.__getattribute__ != other.__getattribute__
