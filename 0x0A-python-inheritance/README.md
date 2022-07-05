@@ -44,3 +44,4 @@ The built-in function <code>super</code> is used to call the <code>__init__</cod
 10- based on 9-, create a class Square that inherits from Rectangle, with size as instance attribute</br>
 11- based on 10-, define print()  and str() to print the square</br>
 12- create a class MyInt that inherits from int, with the operators <code>==</code> and <code>!=</code> inverted</br>
+13- function that adds a new attibute to an object if it's possible</br>
