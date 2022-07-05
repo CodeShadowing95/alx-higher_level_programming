@@ -40,3 +40,4 @@ The built-in function <code>super</code> is used to call the <code>__init__</cod
 6- based on 5-, create a public instance method <code>area</code> that raises an Exception with the message <code>area() is not implemented</code></br>
 7- based on 6-, add a public instance method tha validates a value</br>
 8- based on 7-, create a Rectangle class that inherits from BaseGeometry, with instance attributes width and height, inheriting the method integer_validator from BaseGeometry</br>
+9- based on 8-, implement the <code>area()</code>, <code>print()</code> and <code>str()</code> methods</br> 
