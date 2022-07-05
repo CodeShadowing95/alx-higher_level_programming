@@ -3,31 +3,53 @@
 >>> bg.integer_validator("my_int", 12)
 >>> bg.integer_validator("width", 89)
 >>> try:
-...	bg.integer_validator("name", "John")
+...     bg.integer_validator("myValue", 0)
 ... except Exception as e:
-...	print("[{}] {}".format(e.__class__.__name__, e))
-[TypeError] name must be an integer
->>> del bg
->>> bg = BaseGeometry()
+...     print("[{}] {}".format(e.__class__.__name__, e))
+[ValueError] myValue must be greater than 0
 >>> try:
-...	bg.integer_validator("age", 0)
+...     bg.integer_validator("val1", -24)
 ... except Exception as e:
-...	print("[{}] {}".format(e.__class__.__name__, e))
-[ValueError] age must be greater than 0
->>> del bg
->>> bg = BaseGeometry()
+...     print("[{}] {}".format(e.__class__.__name__, e))
+[ValueError] val1 must be greater than 0
 >>> try:
-...	bg.integer_validator("distance", -4)
+...     bg.integer_validator("val0", True)
 ... except Exception as e:
-...	print("[{}] {}".format(e.__class__.__name__, e))
-[ValueError] distance must be greater than 0
->>> del bg
->>> bg = BaseGeometry()
->>> bg.integer_validator("height", 25)
->>> bg.integer_validator("day", 2)
->>> bg.integer_validator("footsize", 10)
+...     print("[{}] {}".format(e.__class__.__name__, e))
+[TypeError] val0 must be an integer
 >>> try:
-...	bg.integer_validator("perimeter", "None")
+...	bg.integer_validator("val", "something")
 ... except Exception as e:
 ...	print("[{}] {}".format(e.__class__.__name__, e))
-[TypeError] perimeter must be an integer
+[TypeError] val must be an integer
+>>> try:
+...     bg.integer_validator("val2", [1])
+... except Exception as e:
+...     print("[{}] {}".format(e.__class__.__name__, e))
+[TypeError] val2 must be an integer
+>>> try:
+...     bg.integer_validator("val3", (1, 2))
+... except Exception as e:
+...     print("[{}] {}".format(e.__class__.__name__, e))
+[TypeError] val3 must be an integer
+>>> try:
+...     bg.integer_validator("val4", {1: "test1", 2: "test2"})
+... except Exception as e:
+...     print("[{}] {}".format(e.__class__.__name__, e))
+[TypeError] val4 must be an integer
+>>> try:
+...     bg.integer_validator("val5", None)
+... except Exception as e:
+...     print("[{}] {}".format(e.__class__.__name__, e))
+[TypeError] val5 must be an integer
+>>> bg.integer_validator("val6", (4))
+>>> try:
+...     bg.integer_validator("val7", 10.6)
+... except Exception as e:
+...     print("[{}] {}".format(e.__class__.__name__, e))
+[TypeError] val7 must be an integer
+>>> try:
+...     bg.integer_validator("val8", {1, 2})
+... except Exception as e:
+...     print("[{}] {}".format(e.__class__.__name__, e))
+[TypeError] val8 must be an integer
