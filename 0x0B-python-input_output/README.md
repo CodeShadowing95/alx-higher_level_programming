@@ -55,3 +55,4 @@ Convert a JSON string to a Python data structure, using the <code>json.loads(dat
 3- function that returns the JSON representation of an object (string)</br>
 4- function that returns an object (Python data structure) represented by a JSON string</br>
 5- function that writes an Object to a text file, using a JSON representation</br>
+6- function that creates an Object from a "JSON file"</br>
