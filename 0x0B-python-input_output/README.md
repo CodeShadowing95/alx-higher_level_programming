@@ -49,3 +49,4 @@ Convert a JSON string to a Python data structure, using the <code>json.loads(dat
 </li>
 </ul></br>
 <h2>Examples</h2>
+0- function that reads a text file and prints it to stdout</br>
