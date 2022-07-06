@@ -9,5 +9,5 @@ def load_from_json_file(filename):
     Args:
         filename: file to operate on
     """
-    with open(filename, 'r') as f:
+    with open(filename) as f:
         return json.load(f)

@@ -2,6 +2,7 @@
 """Definition of the function add_item()"""
 import sys
 import json
+from os.path import exists
 save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
 load_from_json_file = __import__('6-load_from_json_file').load_from_json_file
 
@@ -13,7 +14,7 @@ def add_item(filename):
         filename: JSON file in which the arguments list will be saved
     """
     my_args = sys.argv[1:]
-    if len(my_args) == 0:
+    if not exists(filename):
         save_to_json_file(my_args, filename)
     else:
         tab = load_from_json_file(filename)
