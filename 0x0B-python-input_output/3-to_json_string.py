@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import json
+from json import dumps
 
 
 """Definition of the function to_json_string()"""
@@ -11,4 +11,4 @@ def to_json_string(my_obj):
     Args:
         my_obj: object to convert into JSON
     """
-    return json.dumps(my_obj)
+    return dumps(my_obj)
