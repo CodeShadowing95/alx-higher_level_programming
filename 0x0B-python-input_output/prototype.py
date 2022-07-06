@@ -1,23 +1,12 @@
 #!/usr/bin/python3
-class_to_json = __import__('8-class_to_json').class_to_json
+Student = __import__('9-student').Student
 
+students = [Student("John", "Doe", 23), Student("Bob", "Dylan", 27)]
 
-class MyClass:
-    """ My class
-    """
-
-    def __init__(self, name):
-        self.name = name
-        self.number = 0
-
-    def __str__(self):
-        return "[MyClass] {} - {:d}".format(self.name, self.number)
-
-m = MyClass("John")
-m.number = 89
-print(type(m))
-print(m)
-
-mj = class_to_json(m)
-print(type(mj))
-print(mj)
+for student in students:
+    j_student = student.to_json()
+    print(type(j_student))
+    print(j_student['first_name'])
+    print(type(j_student['first_name']))
+    print(j_student['age'])
+    print(type(j_student['age']))

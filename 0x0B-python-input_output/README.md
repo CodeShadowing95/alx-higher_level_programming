@@ -58,3 +58,4 @@ Convert a JSON string to a Python data structure, using the <code>json.loads(dat
 6- function that creates an Object from a "JSON file"</br>
 7- script that adds all arguments to a Python list, and then save them to a file</br>
 8- function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object</br>
+9- create a class student(first_name, last_name, age), and a method <code>to_json</code> that retrieves a dictionary representation of a Student instance</br>
