@@ -2,7 +2,7 @@
 """definition of the function add_attribute()"""
 
 
-def add_attribute(obj, attibute, value):
+def add_attribute(obj, attribute, value):
     """function add_attribute
 
     Args:
@@ -14,6 +14,6 @@ def add_attribute(obj, attibute, value):
         TypeError if cannot add attribute
     """
     if hasattr(obj, "__dict__"):
-        setattr(obj, attibute, value)
+        setattr(obj, attribute, value)
     else:
-        raise TypeError("can't add new attibute")
+        raise TypeError("can't add new attribute")
