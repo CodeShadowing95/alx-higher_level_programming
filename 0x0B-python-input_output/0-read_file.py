@@ -8,6 +8,6 @@ def read_file(filename=""):
     Args:
         filename: file to operate on
     """
-    with open(filename, "r", encoding="utf-8") as f:
+    with open(filename, "r+", encoding="utf-8") as f:
         pf = f.read()
     print(pf)
