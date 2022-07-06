@@ -52,3 +52,4 @@ Convert a JSON string to a Python data structure, using the <code>json.loads(dat
 0- function that reads a text file and prints it to stdout</br>
 1- function that writes a string to a text file and returns the number of characters written</br>
 2- function that appends a string at the end of a text file and returns the number of characters added</br>
+3- function that returns the JSON representation of an object (string)</br>
