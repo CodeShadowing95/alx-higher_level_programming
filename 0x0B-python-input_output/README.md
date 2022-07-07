@@ -63,3 +63,4 @@ Convert a JSON string to a Python data structure, using the <code>json.loads(dat
 11- based on 10-, define a method that replaces all attributes of the Student instance</br>
 12- function that returns a list of lists of integers representing the Pascal's triangle of a number n</br>
 13- insert a line of text to a file, after each line containing a specific string</br>
+14- script that read <code>stdin</code> line by line and computes metrics</br>
