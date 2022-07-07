@@ -12,7 +12,9 @@ class Student:
         self.age = age
 
     def to_json(self, attrs=None):
-        """retrieve a dictionary representation of a Student instance"""
+        """retrieve a dictionary representation of a Student instance
+        or serialization
+        """
         d = dict()
         if attrs is None:
             d = self.__dict__
@@ -23,7 +25,8 @@ class Student:
         return d
 
     def reload_from_json(self, json):
-        """replaces all attributes of the Student instance"""
-        self.first_name = json["first_name"]
-        self.last_name = json["last_name"]
-        self.age = json["age"]
+        """replaces all attributes of the Student instance
+        or deserialization
+        """
+        for key, value in json.items():
+            self.__dict__[key] = value
