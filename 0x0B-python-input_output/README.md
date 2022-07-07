@@ -61,3 +61,5 @@ Convert a JSON string to a Python data structure, using the <code>json.loads(dat
 9- create a class student(first_name, last_name, age), and a method <code>to_json</code> that retrieves a dictionary representation of a Student instance</br>
 10- based on 9-, modify the method <code>to_json</code> by adding the parameter attrs, that is a list of strings. Only attribute names contained in this list must be retrieved, otherwise all attributes must be retrieved</br>
 11- based on 10-, define a method that replaces all attributes of the Student instance</br>
+12- function that returns a list of lists of integers representing the Pascal's triangle of a number n</br>
+13- insert a line of text to a file, after each line containing a specific string</br>
