@@ -60,3 +60,4 @@ Convert a JSON string to a Python data structure, using the <code>json.loads(dat
 8- function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object</br>
 9- create a class student(first_name, last_name, age), and a method <code>to_json</code> that retrieves a dictionary representation of a Student instance</br>
 10- based on 9-, modify the method <code>to_json</code> by adding the parameter attrs, that is a list of strings. Only attribute names contained in this list must be retrieved, otherwise all attributes must be retrieved</br>
+11- based on 10-, define a method that replaces all attributes of the Student instance</br>
