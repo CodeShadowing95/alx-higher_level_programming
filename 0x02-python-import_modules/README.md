@@ -22,7 +22,7 @@ To create a module, create a file with the extension <code>.py</code> that conta
 The built-in function <code>dir()</code> is uesd to find out which names (functions names) a module defines. It returns a sorted list of strings that retrieves all the names of functions in the modules and the <code>__name__</code> of the module
 </li>
 <li>
-To prevent code in the script from being executed when imported, the package author should provide an explicit index of the package: if a package's <code>__init__.py</code> code defines a list named <code>__all__</code>, it is taken to be list of module names that should be imported when <code>from package import *</code> is encountered. It is up to the package author to keep this list up-to-date when a new version of the package is released.
+To prevent code in the script from being executed when imported, the package author should provide an explicit index of the package: if a package's <code>__init__.py</code> code defines a list named <code>__all__</code>, it is taken to be list of module names that should be imported when <code>from package import \*</code> is encountered. It is up to the package author to keep this list up-to-date when a new version of the package is released.
 </li>
 <li>
 To use command line arguments with Python programs, import the module <code>sys</code>. The arguments appended, when executing the program are stored in the <code>sys</code> module's <code>argv</code> attribute as a list</br>
@@ -35,4 +35,4 @@ To use command line arguments with Python programs, import the module <code>sys<
 </ul></br>
 <h3>Examples</h3>
 0- program that imports the function <code>def add(a, b): </code> from the file <code>add_0.py</code> and prints the result of the addition <code>1 + 2 = 3</code></br>
-
+1- program that imports functions from the file <code>calculator_1.py</code>, does some Maths, and prints the result</br>
