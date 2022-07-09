@@ -34,5 +34,5 @@ To use command line arguments with Python programs, import the module <code>sys<
 </li>
 </ul></br>
 <h3>Examples</h3>
-0- program that imports the function <code>def add(a, b): </code> from the file <code>add_0.py</code> and prints the result of the addition <code>1 + 2 = 3</code>
+0- program that imports the function <code>def add(a, b): </code> from the file <code>add_0.py</code> and prints the result of the addition <code>1 + 2 = 3</code></br>
 
