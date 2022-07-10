@@ -12,3 +12,4 @@ to print the rectangle</br>
 7- based on (6-), add class attribute <code>print_symbol</code>, used as symbol for string representation</br>
 8- based on (7-), add static method that returns the biggest rectangle based on the area</br>
 9- based on (8-), add a class method that returns a new Rectangle instance with <code>width == height == size</code></br>
+10- The N queens puzzle is the challenge of placing N non-attacking queens on an N×N chessboard.
