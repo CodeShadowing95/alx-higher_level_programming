@@ -5,5 +5,5 @@ if __name__ == "__main__":
 
     tab = dir(hidden_4)
     for module in tab:
-        if "__" not in module:
+        if module[0] + module[1] != "__":
             print(module)
