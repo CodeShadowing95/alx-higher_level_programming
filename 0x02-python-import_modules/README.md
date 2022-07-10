@@ -40,3 +40,4 @@ To use command line arguments with Python programs, import the module <code>sys<
 3- program that prints the result of the addition of all arguments</br>
 4- program that prints all the names defined by the compiled module <code>hidden_4.pyc</code></br>
 5- program that imports the variable <code>a</code> from the file <code>variable_load_5.py</code> and prints its value</br>
+6- program that imports all functions from the file <code>calculator_1.py</code> and handles basic operations</br>
