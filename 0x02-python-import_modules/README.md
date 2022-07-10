@@ -37,3 +37,4 @@ To use command line arguments with Python programs, import the module <code>sys<
 0- program that imports the function <code>def add(a, b): </code> from the file <code>add_0.py</code> and prints the result of the addition <code>1 + 2 = 3</code></br>
 1- program that imports functions from the file <code>calculator_1.py</code>, does some Maths, and prints the result</br>
 2- program that prints the number of and the list of its arguments</br>
+3- program that prints the result of the addition of all arguments</br>
