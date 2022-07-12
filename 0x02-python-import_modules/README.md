@@ -21,8 +21,8 @@ To create a module, create a file with the extension <code>.py</code> that conta
 <li>
 When running a Python module with <code>python module_name.py arguments</code>, the code in the module will be executed, just as if we imported it, but with the <code>__name__</code> set to <code>__main__</code>. That means that by adding this code at the end of our module like:</br>
 <code>if __name__ == '__main__':</code></br>
-<code>    import sys</code></br>
-<code>    fib(int(sys.argv[1]))</code></br>
+<code>____import sys</code></br>
+<code>____fib(int(sys.argv[1]))</code></br>
 we can make the file usable as a script as well as an importable module, because the code that parses the command line only runs if the module is executed as the "main" file</br>
 <code>$ python fibo.py 50</code></br>
 <code>0 1 1 2 3 5 8 13 21 34</code></br>
