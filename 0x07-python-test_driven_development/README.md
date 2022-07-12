@@ -86,4 +86,7 @@ Then, take all these cases and create a long list trying to understand how they 
 <li>etc...</li>
 </ul>
 </pre>
-</p>
+</p></br>
+
+<h3>Examples</h3>
+0- function that adds 2 integers</br>
