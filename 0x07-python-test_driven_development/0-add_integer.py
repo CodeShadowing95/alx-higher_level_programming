@@ -6,7 +6,7 @@ Raises: TypeError if a or b are not integer or float
 """
 
 
-def add_integer(a, b):
+def add_integer(a, b=98):
     """
     Return the result of a + b
     """
