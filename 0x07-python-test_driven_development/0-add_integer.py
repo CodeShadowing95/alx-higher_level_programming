@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """
-doctest_add_integer.py
 This module supplies the function add_integer().
-Raises: TypeError if a or b are not integer or float
+Raises:
+    TypeError if a or b are not a number (integer or float)
 """
 
 
