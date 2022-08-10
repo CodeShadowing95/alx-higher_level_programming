@@ -1,2 +1,2 @@
 -- Script that prints the full description of a table
-DESC first_table;
+SELECT * FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME='first-table'
