@@ -1,3 +1,3 @@
 git add .
-git commit -m "SQL query commit"
+git commit -m "More SQL queries commit"
 git push
