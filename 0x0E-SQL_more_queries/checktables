@@ -1,0 +1,3 @@
+echo 'SELECT * FROM tv_genres;' | ./sql_query
+echo 'SELECT * FROM tv_show_genres;' | ./sql_query 
+echo 'SELECT * FROM tv_shows;' | ./sql_query 
