@@ -90,3 +90,4 @@ Then, take all these cases and create a long list trying to understand how they 
 
 <h3>Examples</h3>
 0- function that adds 2 integers</br>
+1- function that divides all elements of a matrix</br>
