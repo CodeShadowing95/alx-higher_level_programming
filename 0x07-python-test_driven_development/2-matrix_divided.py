@@ -30,8 +30,8 @@ def matrix_divided(matrix, div):
         if all(isinstance(tab, list) for tab in matrix):
             if len(set(map(len, matrix))) == 1:
                 check_int = all(isinstance(j, int) for i in matrix for j in i)
-                check_float = all(type(b) != float for a in matrix for b in a)
-                if not check_int and (not check_float):
+                c_float = all(isinstance(b, float) for a in matrix for b in a)
+                if not check_int and (not c_float):
                     raise TypeError(e1)
             else:
                 raise TypeError(e2)
