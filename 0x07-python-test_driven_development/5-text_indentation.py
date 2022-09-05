@@ -25,10 +25,10 @@ def text_indentation(text):
         raise TypeError("text must be a string")
     for i in text:
         if i in ".?:":
-            print(i, end="")
+            print(i, end="\n\n")
             c = 1
         elif c == 1 and i == " ":
-            print("\n")
             c = 0
+            pass
         else:
             print(i, end="")
