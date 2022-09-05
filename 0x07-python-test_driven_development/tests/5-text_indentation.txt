@@ -28,14 +28,17 @@ Quae animi affectio suum cuique tribuens atque hanc, quam dico.
 <BLANKLINE>
 Utinam quidem dicerent alium alio beatiorem! Iam ruinas videres
 >>>
->>> text_indentation("""Lorem ipsum dolor sit amet,""")
-Lorem ipsum dolor sit amet,
+>>> text_indentation("""Lorem ipsum dolor sit amet.""")
+Lorem ipsum dolor sit amet.
 >>>
 >>> text_indentation("""Utrum igitur tibi litteram videor an totas paginas commovere? """)
 Utrum igitur tibi litteram videor an totas paginas commovere?
 <BLANKLINE>
 >>>
->>> text_indentation("")
+>>> text_indentation("""1""")
+1
+>>>
+>>> text_indentation("""""")
 >>> text_indentation(1)
 Traceback (most recent call last):
 ...
